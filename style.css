@@ -13,37 +13,48 @@
     width: 120px;
 }
 
-.header1{
-    background-image: url(images/background_header.png);
-    width: 1903px;
-    height: 59px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+/*BUTTON*/
 
+.button_pack{
+    display: flex;
+    justify-content: right;
 }
 
-.donate{
-    font-size: 1.125rem;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 0.9px;
-    color: white;
-    background: rgb(254, 106, 34);
-    font-family: var(--SSP-Reg);
-    text-transform: uppercase;
+.primary_button{
+    background-color: rgb(254, 106, 34);
     height: 39px;
     width: 147px;
-    margin: .5625rem .9375rem .375rem 2.8125rem;
+    border:rgb(254, 106, 34);
+    margin: .5625rem .9375rem .375rem 2.8125rem ;
 }
 
-.shop{
-    font-size: 1.125rem;
+.button1{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--SSP-Reg);
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center; 
+}
+
+.secondary_button{
+    background-color: white;
+    border: 3px solid black;
+    height: 39px;
+    width: 147px;
+    margin: .5625rem .9375rem .375rem 2.8125rem ;
+}
+
+.button2{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--SSP-Reg);
+    font-size: 12px;
     line-height: 18px;
     text-align: center;
-    letter-spacing: 0.9px;
-    border: 3px solid;
-    height: 39px;
-    width: 463px;
-    
 }
+
