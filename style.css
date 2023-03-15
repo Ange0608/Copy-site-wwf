@@ -1,0 +1,13 @@
+.logo_header{
+    height: 141px;
+    width: 120px;
+}
+.header1{
+    background-image: url(images/background_header.png);
+    width: 1903px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
