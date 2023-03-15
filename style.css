@@ -1,12 +1,15 @@
 @font-face {
     font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
     src: url(SourceSansPro-Regular.otf)
-        url(SourceSansPro-Regular.woff)
+        url(SourceSansPro-Regular.woff);
+    font-family: "wwf-webfont", Arial, Helvetica, sans-serif;
+    src: url(wwf-webfont.woff);
     
 }
 
 :root{
     --SSP-Reg: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
+    --wwf: "wwf-webfont", Arial, Helvetica, sans-serif;
 }
 
 /* >>>>> HEADER >>>>>*/
@@ -17,9 +20,8 @@
     z-index: 1;
     position: absolute;
     top: 0;
+    margin-left: 4rem;
 }
-
-
 
 /*BUTTON*/
 
@@ -33,7 +35,7 @@
 .primary_button{
     background-color: rgb(254, 106, 34);
     border:rgb(254, 106, 34);
-    margin: .5625rem .9375rem .375rem 2.8125rem ;
+    margin: .5625rem .9375rem .375rem 2.8125rem;
 }
 
 .button1{
@@ -68,27 +70,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: .5625rem .9375rem .375rem 0;
 }
 
 .header_button svg{
     margin-right: 8px;
 }
 
-.third_button{
-    background-color: white;
-    border: 3px solid black;
-    margin: .5625rem .9375rem .375rem 0;
-
-}
-
-.img_button{
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-    padding-right: .75rem;
-}
 
 /*NAV BAR*/
 
+
+.nav_bar{
+    display: flex;
+    margin: 1.5rem 13.5rem;
+}
+
+.menu a{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-family: var(--wwf);
+    font-weight: 400;
+}
+
+.menu1 a{
+    padding: 0;
+}
+
+.nav_bar svg{
+    height: 24px;
+    width: 24px;
+}
 
 
