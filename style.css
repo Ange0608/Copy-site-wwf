@@ -8,22 +8,30 @@
 :root{
     --SSP-Reg: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
 }
+
+/* >>>>> HEADER >>>>>*/
+
 .logo_header{
     height: 141px;
     width: 120px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
 }
+
+
 
 /*BUTTON*/
 
 .button_pack{
     display: flex;
     justify-content: right;
+    background-image: url(images/background_header.png);
+    z-index: 2;
 }
 
 .primary_button{
     background-color: rgb(254, 106, 34);
-    height: 39px;
-    width: 147px;
     border:rgb(254, 106, 34);
     margin: .5625rem .9375rem .375rem 2.8125rem ;
 }
@@ -42,9 +50,7 @@
 .secondary_button{
     background-color: white;
     border: 3px solid black;
-    height: 39px;
-    width: 147px;
-    margin: .5625rem .9375rem .375rem 2.8125rem ;
+    margin: .5625rem .9375rem .375rem 0;  
 }
 
 .button2{
@@ -57,4 +63,32 @@
     line-height: 18px;
     text-align: center;
 }
+
+.header_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_button svg{
+    margin-right: 8px;
+}
+
+.third_button{
+    background-color: white;
+    border: 3px solid black;
+    margin: .5625rem .9375rem .375rem 0;
+
+}
+
+.img_button{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding-right: .75rem;
+}
+
+/*NAV BAR*/
+
+
 
