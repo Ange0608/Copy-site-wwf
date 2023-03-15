@@ -1,7 +1,18 @@
+@font-face {
+    font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
+    src: url(SourceSansPro-Regular.otf)
+        url(SourceSansPro-Regular.woff)
+    
+}
+
+:root{
+    --SSP-Reg: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
+}
 .logo_header{
     height: 141px;
     width: 120px;
 }
+
 .header1{
     background-image: url(images/background_header.png);
     width: 1903px;
@@ -9,5 +20,30 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
+
 }
 
+.donate{
+    font-size: 1.125rem;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    color: white;
+    background: rgb(254, 106, 34);
+    font-family: var(--SSP-Reg);
+    text-transform: uppercase;
+    height: 39px;
+    width: 147px;
+    margin: .5625rem .9375rem .375rem 2.8125rem;
+}
+
+.shop{
+    font-size: 1.125rem;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    border: 3px solid;
+    height: 39px;
+    width: 463px;
+    
+}
