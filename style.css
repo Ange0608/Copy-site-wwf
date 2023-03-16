@@ -29,13 +29,12 @@
     display: flex;
     justify-content: right;
     background-image: url(images/background_header.png);
-    z-index: 2;
+    height: 59px;
 }
 
-.primary_button{
+.first_button{
     background-color: rgb(254, 106, 34);
     border:rgb(254, 106, 34);
-    margin: .5625rem .9375rem .375rem 2.8125rem;
 }
 
 .button1{
@@ -81,9 +80,17 @@
 /*NAV BAR*/
 
 
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .nav_bar{
     display: flex;
-    margin: 1.5rem 13.5rem;
+    margin: 1.8rem 13.5rem;
+    justify-content: space-between;
 }
 
 .menu a{
@@ -92,11 +99,10 @@
     text-align: left;
     color: black;
     text-decoration: none;
-    padding-left: 2rem;
     font-family: var(--wwf);
     font-weight: 400;
+    
 }
-
 .menu1 a{
     padding: 0;
 }
@@ -104,6 +110,47 @@
 .nav_bar svg{
     height: 24px;
     width: 24px;
+    position: absolute;
+    right: 0;
+    padding-right: 5rem;
 }
+.menu {
+  position: relative;
+  text-decoration: none;
+  color: #a0a0a0;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.menu:after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 45px;
+}
+
+.menu:hover:after {
+  width: 100%;
+}
+
+/*>>>>>>>>>BODY>>>>>>>*/
+
+/*FIRST ARTICLE*/
+
+.first_article{
+width: 1920px;
+height: 1080px;
+}
+
+.first_img{
+    width: 100%;
+    height: 80%;
+}
+
+
+
 
 
