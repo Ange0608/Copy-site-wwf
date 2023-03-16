@@ -1,4 +1,5 @@
 @import url(https://fonts.bunny.net/css?family=akshar:500|source-sans-pro:400);
+@import url(https://fonts.bunny.net/css?family=source-serif-pro:400);
 
 /* reset CSS */
 
@@ -46,7 +47,9 @@ table {
 
 
 :root {
-    --Akshar:'Akshar', sans-serif;
+    --akshar:'Akshar', sans-serif; /*à la place de WWFRegular*/
+    --ssourcepro:'Source Sans Pro', sans-serif;
+    --sserifpro: 'Source Serif Pro',serif;
 
 }
 
@@ -80,8 +83,8 @@ table {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
-    font-family: var(--SSP-Reg);
-    font-size: 12px;
+    font-family: var(--ssourcepro);
+    font-size: 1.2em;
     line-height: 18px;
     text-align: center;
 }
@@ -97,8 +100,8 @@ table {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
-    font-family: var(--SSP-Reg);
-    font-size: 12px;
+    font-family: var(--ssourcepro);
+    font-size: 1.2em;
     line-height: 18px;
     text-align: center;
 }
@@ -129,16 +132,16 @@ table {
     display: flex;
     margin: 1.8rem 13.5rem;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 1.81rem;
 }
 
 .menu a {
     text-transform: uppercase;
-    font-size: 1, 1rem;
+    font-size: 1.3em;
     text-align: left;
     color: black;
     text-decoration: none;
-    font-family: var(--Akshar);
+    font-family: var(--akshar);
     font-weight: 400;
     font-style: normal;
     letter-spacing: .5px;
@@ -188,12 +191,13 @@ table {
 .first_article {
     color: white;
     background-image: url(images/baleine.jpg);
+    background-repeat: no-repeat;
 
 }
 
 .article_1{
-    padding-top: 32rem;
-    padding-left: 15rem;
+    padding-top: 28rem;
+    padding-left: 25rem;
     padding-bottom: 20rem;
 }
 
@@ -201,7 +205,7 @@ table {
    font-size: 5em;
    line-height: 100px;
    text-align: left;
-   font-family: var(--Akshar); 
+   font-family: var(--akshar); 
    text-transform: uppercase;
    font-weight: 400;
    color: white;
@@ -209,7 +213,7 @@ table {
 }
 
 .article_1 p{
-    font-family: var(--Akshar);
+    font-family: var(--sserifpro);
     font-size: 1.5em;
     padding: 1rem;
     text-align: left;
@@ -217,10 +221,29 @@ table {
 
 .read_first_article{
     background-color: rgb(254, 106, 34);
+    border: 10px solid #FE6A22;
+}
+
+.read_first_article:hover{
+    background-color: rgb(250, 96, 19);
 }
 
 .read_first_article a{
     color: white;
     text-decoration: none;
-    font-family: var(--Akshar);
+    font-family: var(--akshar);
+    text-transform: uppercase;
+    font-size: 1.5rem;   
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35rem;
+    margin-top: 20rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: white;
 }
