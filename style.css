@@ -221,7 +221,7 @@ table {
 
 .read_first_article{
     background-color: rgb(254, 106, 34);
-    border: 10px solid #FE6A22;
+    
 }
 
 .read_first_article:hover{
@@ -236,14 +236,13 @@ table {
     font-size: 1.5rem;   
 }
 
-.scroll{
+.scroll_button{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 35rem;
-    margin-top: 20rem;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border-color: white;
+    align-items: center;  
+    margin-top: 19rem; 
+}
+
+.scroll:hover{
+    color: #FE6A22;
 }
