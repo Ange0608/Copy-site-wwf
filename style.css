@@ -192,18 +192,16 @@ table {
     color: white;
     background-image: url(images/baleine.jpg);
     background-repeat: no-repeat;
-
 }
 
 .article_1{
-    padding-top: 28rem;
+    padding-top: 30rem;
     padding-left: 25rem;
-    padding-bottom: 20rem;
+    padding-bottom: 12rem;
 }
 
 .article_1 h2{
    font-size: 5em;
-   line-height: 100px;
    text-align: left;
    font-family: var(--akshar); 
    text-transform: uppercase;
@@ -215,7 +213,7 @@ table {
 .article_1 p{
     font-family: var(--sserifpro);
     font-size: 1.5em;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     text-align: left;
 }
 
@@ -236,13 +234,12 @@ table {
     font-size: 1.5rem;   
 }
 
-.scroll_button{
+.scroll{
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-top: 19rem; 
 }
 
-.scroll:hover{
-    color: #FE6A22;
+.scroll a:hover{
+    opacity: 0.8;
 }
