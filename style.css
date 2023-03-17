@@ -256,10 +256,12 @@ h3{
 /*article grid 1*/
 
 .art_row_one{
-    margin-left: 23rem;
+    display: flex;
+    justify-content: center;
+
 }
 
-.art_left{
+.text{
     padding: 3rem;
     width: 350px; 
     display: flex;
@@ -273,13 +275,13 @@ h3{
     margin-left: 4rem;
 
 }
-.art_left h2{
+.text h2{
     font-family: var(--akshar);
     font-size: 2em;
     margin-bottom: 2rem;
 }
 
-.art_left p{
+.text p{
     font-family: var(--ssourcepro);
     font-size: 1.3em;
     width: 410px;
@@ -288,11 +290,10 @@ h3{
 .img_art{
     height: 363px;
     width: 580px;
+    margin-right: 1.5rem;
 }
 
 
-
 /*article grid 2*/
-
 
 
