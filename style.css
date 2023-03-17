@@ -243,3 +243,56 @@ table {
 .scroll a:hover{
     opacity: 0.8;
 }
+
+/*GRID ARTICLE*/
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--akshar);
+    font-size: 2em;
+    margin: 5rem 0 4rem;
+}
+/*article grid 1*/
+
+.art_row_one{
+    margin-left: 23rem;
+}
+
+.art_left{
+    padding: 3rem;
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 1500px;
+    opacity: 0.8;
+    margin-left: 4rem;
+
+}
+.art_left h2{
+    font-family: var(--akshar);
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.art_left p{
+    font-family: var(--ssourcepro);
+    font-size: 1.3em;
+    width: 410px;
+    letter-spacing: normal;
+}
+.art_row_one img{
+    height: 363px;
+    width: 580px;
+}
+
+
+
+/*article grid 2*/
+
+
+
