@@ -449,6 +449,24 @@ iframe{
 
 /*Our reason*/
 
+.reason_to_be{
+    background-image: url(images/tiled_elephant.png);
+}
+
+.text_reason_to_be{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--akshar);
+    font-size: 4em;
+    width: 1170px;
+    
+}
+.reason_to_be h3{
+    padding-top: 5rem;
+}
+
 
 
 
