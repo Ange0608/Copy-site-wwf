@@ -530,7 +530,23 @@ iframe{
 
 .news_letter img{
     margin-top: 5rem;
-    width: 1170px;
-    height:730px;
+}
 
+.panel{
+   width: 360px;
+   height: 320px;
+   background-color: white;
+}
+
+.first_para{
+    font-family: var(--akshar);
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.second_para{
+    font-family: var(--akshar);
+    text-align: center;
+    font-size: 1.2em;
 }
