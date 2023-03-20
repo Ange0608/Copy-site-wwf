@@ -1,6 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=akshar:500|source-sans-pro:400);
 @import url(https://fonts.bunny.net/css?family=source-serif-pro:400);
-
+@import url(https://fonts.bunny.net/css?family=source-sans-pro:300);
 /* reset CSS */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -50,6 +50,7 @@ table {
     --akshar:'Akshar', sans-serif; /*à la place de WWFRegular*/
     --ssourcepro:'Source Sans Pro', sans-serif;
     --sserifpro: 'Source Serif Pro',serif;
+    --
 
 }
 
@@ -217,8 +218,8 @@ table {
 
 .text_top_article{
     position: absolute;
-    top: 600px;
-    left: 280px;
+    top: 650px;
+    left: 400px;
 }
 
 .text_top_article p{
@@ -247,8 +248,8 @@ table {
 
 .scroll{
     position: absolute;
-    top: 1000px;
-    left: 800px;
+    top: 1120px;
+    left: 930px;
 }
 
 .scroll a:hover{
@@ -286,7 +287,7 @@ h3{
     text-align: center;
     background-color: white;
     position: absolute;
-    top: 1500px;
+    top: 1610px;
     opacity: 0.9;
     margin-left: 4rem;
 
@@ -327,7 +328,7 @@ h3{
     text-align: center;
     background-color: white;
     position: absolute;
-    top: 2080px;
+    top: 2200px;
     opacity: 0.9;
     margin-left: 4rem;
 }
@@ -351,8 +352,9 @@ h3{
     color: #000000;
     font: size 2em;
     font-family: var(--akshar);
-    margin-top: 21rem;
+    margin-top: 17rem;
 }
+
 
 .text_first_action{
     color: white;
@@ -361,8 +363,8 @@ h3{
     text-transform: uppercase;
     width: 580px;
     position: absolute;
-    top: 2700px;
-    left: 220px;
+    top: 2780px;
+    left: 350px;
     text-align: center;
 }
 
@@ -373,8 +375,8 @@ h3{
     text-transform: uppercase;
     width: 580px;
     position: absolute;
-    top: 2700px;
-    left: 850px;
+    top: 2780px;
+    left: 950px;
     text-align: center; 
 }
 .art_row_three{
@@ -384,10 +386,71 @@ h3{
 
 /*VIDEO*/
 
-video{
+iframe{
     width: 100%;
-    height: auto;
+    height: 950px;
+    margin-top: 5rem;
 }
+
+/*News*/
+
+.news_articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date{
+    padding: 0 7rem;
+    font-size: 1.3em;
+    font-family:var(--akshar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5rem;
+    
+}
+
+.news_container{
+    width: 570px;
+}
+
+.news_container h4{
+    font-size: 1.4em;
+    font-family: var(--ssourcepro);
+    font-weight: 600;
+    padding-bottom: .5rem;
+}
+
+.news_container p{
+    font-family: var(--ssourcepro);
+    font-size: 1.2em;   
+}
+
+.all_news{
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.all_news a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--akshar);
+    font-size: 1.3em;
+    border: 3px solid black;
+    padding: .5rem;
+    color: black;
+}
+
+/*Our reason*/
+
+
+
 
 
 
