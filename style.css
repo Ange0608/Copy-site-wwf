@@ -528,6 +528,12 @@ iframe{
 
 /*News Letter*/
 
+.news_letter{
+    background-color: white;
+    opacity: 0.8;
+    
+}
+
 .news_letter img{
     margin-top: 5rem;
 }
@@ -536,17 +542,45 @@ iframe{
    width: 360px;
    height: 320px;
    background-color: white;
+   position: absolute;
+   top: 6450px;
+   opacity: 0.9;
+   left: 470px;
 }
 
 .first_para{
     font-family: var(--akshar);
     font-weight: 600;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    width: 290px;
+    margin: auto;
+    margin-top: 4.3rem;
 }
 
 .second_para{
     font-family: var(--akshar);
     text-align: center;
     font-size: 1.2em;
+    width: 290px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.suscribe{
+    margin-top: 4.2rem;
+    background-color: rgb(243, 89, 14);
+    border: 1px solid #f3590e;
+    margin: 2.5rem 2.5rem;
+    padding: 1rem 6rem;
+    
+}
+
+.suscribe a{
+    font-family: var(--ssourcepro);
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    
 }
