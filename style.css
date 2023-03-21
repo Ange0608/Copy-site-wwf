@@ -80,6 +80,10 @@ table {
     border: var(--orange);
 }
 
+.first_button:hover{
+    background-color: var(--orangehover);
+}
+
 .button1 {
     color: white;
     text-decoration: none;
@@ -133,7 +137,6 @@ table {
 .nav_bar {
     display: flex;
     margin: 1.8rem 13.5rem;
-    justify-content: space-between;
     margin-bottom: 1.81rem;
 }
 
@@ -147,13 +150,7 @@ table {
     font-weight: 400;
     font-style: normal;
     letter-spacing: .5px;
-    display: block;
-    float: left;
-
-}
-
-.menu1 a {
-    padding: 0;
+    
 }
 
 .nav_bar svg {
@@ -233,10 +230,11 @@ table {
 
 .read_first_article{
     background-color: var(--orange);
+    border: 1px solid var(--orange);
 }
 
 .read_first_article:hover{
-    background-color: var(--orange);
+    background-color: var(--orangehover);
 }
 
 .read_first_article a{
@@ -385,6 +383,10 @@ table {
 .art_row_three{
     display: flex;
     justify-content: center;
+}
+
+.our_action a:hover{
+    opacity: 0.8;
 }
 
 /*VIDEO*/
