@@ -50,6 +50,8 @@ table {
     --akshar:'Akshar', sans-serif; /*à la place de WWFRegular*/
     --ssourcepro:'Source Sans Pro', sans-serif;
     --sserifpro: 'Source Serif Pro',serif;
+    --orangehover: #ec4e01;
+    --orange:#fe6a22;
 
 }
 
@@ -74,8 +76,8 @@ table {
 }
 
 .first_button {
-    background-color: rgb(254, 106, 34);
-    border: rgb(254, 106, 34);
+    background-color: var(--orange);
+    border: var(--orange);
 }
 
 .button1 {
@@ -165,7 +167,7 @@ table {
 .menu {
     position: relative;
     text-decoration: none;
-    color: #a0a0a0;
+    color: rgb(160, 160, 160);
     letter-spacing: 0.5px;
     padding: 0 10px;
 }
@@ -173,7 +175,7 @@ table {
 .menu:after {
     content: "";
     position: absolute;
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     height: 3px;
     width: 0;
     left: 0;
@@ -230,11 +232,11 @@ table {
 }
 
 .read_first_article{
-    background-color: rgb(254, 106, 34);
+    background-color: var(--orange);
 }
 
 .read_first_article:hover{
-    background-color: rgb(250, 96, 19);
+    background-color: var(--orange);
 }
 
 .read_first_article a{
@@ -348,7 +350,7 @@ h3{
 /*OUR ACTION*/
 
 .our_action h3{
-    color: #000000;
+    color: rgb(0, 0, 0);
     font: size 2em;
     font-family: var(--akshar);
     margin-top: 17rem;
@@ -477,7 +479,7 @@ iframe{
 .explorer a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-family: var(--akshar);
     border: 3px solid black;
     margin-top: 5rem;
@@ -544,8 +546,7 @@ iframe{
    background-color: white;
    position: absolute;
    top: 6450px;
-   opacity: 0.9;
-   left: 470px;
+   left: 460px;
 }
 
 .first_para{
@@ -567,20 +568,26 @@ iframe{
     margin-top: 2rem;
 }
 
-.suscribe{
+.subscribe{
     margin-top: 4.2rem;
-    background-color: rgb(243, 89, 14);
-    border: 1px solid #f3590e;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
     margin: 2.5rem 2.5rem;
     padding: 1rem 6rem;
     
 }
 
-.suscribe a{
+.subscribe a{
     font-family: var(--ssourcepro);
     font-size: 1.3em;
     text-transform: uppercase;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
+
+.subscribe:hover{
+    background-color:var(--orangehover);
+}
+
+/*>>>>>>>>>>FOOTER<<<<<<<<<<<<*/
+
