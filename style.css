@@ -591,3 +591,28 @@ iframe{
 
 /*>>>>>>>>>>FOOTER<<<<<<<<<<<<*/
 
+.footer_container{
+    background-image: url(images/background_footer.png);
+    color: white;
+}
+
+.footer_container a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.first_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.column_one, .column_two, .column_three, .column_four{
+    padding: 0 2rem;
+} 
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
