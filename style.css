@@ -93,6 +93,8 @@ table {
     font-size: 1.2em;
     line-height: 18px;
     text-align: center;
+    background-color: var(--orange);
+    border: var(--orange);
 }
 
 .secondary_button {
@@ -126,14 +128,6 @@ table {
 
 /*NAV BAR*/
 
-
-*:before,
-*:after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .nav_bar {
     display: flex;
     margin: 1.8rem 13.5rem;
@@ -147,8 +141,6 @@ table {
     color: black;
     text-decoration: none;
     font-family: var(--akshar);
-    font-weight: 400;
-    font-style: normal;
     letter-spacing: .5px;
     
 }
@@ -164,7 +156,6 @@ table {
 .menu {
     position: relative;
     text-decoration: none;
-    color: rgb(160, 160, 160);
     letter-spacing: 0.5px;
     padding: 0 10px;
 }
@@ -176,7 +167,7 @@ table {
     height: 3px;
     width: 0;
     left: 0;
-    top: 45px;
+    top: 48px;
 }
 
 .menu:hover:after {
@@ -185,20 +176,21 @@ table {
 
 /*>>>>>>>>>BODY>>>>>>>*/
 
+.title_section{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--akshar);
+    font-size: 2em;
+    margin: 5rem 0 4rem;
+}
+
 /*FIRST ARTICLE*/
 
-.span2{
-    border-bottom: 4px solid white;
+.border_bottom_white{
+    border-bottom: 5px solid white;
 }
 
 .img_top_article{
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content:center;
-}
-
-.img_top_article img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -209,9 +201,7 @@ table {
    text-align: left;
    font-family: var(--akshar); 
    text-transform: uppercase;
-   font-weight: 400;
    color: white;
-   margin: 0;
 }
 
 .text_top_article{
@@ -242,7 +232,8 @@ table {
     text-decoration: none;
     font-family: var(--akshar);
     text-transform: uppercase;
-    font-size: 1.5rem;   
+    font-size: 1.5rem;  
+    padding: .5rem; 
 }
 
 .scroll{
@@ -257,16 +248,8 @@ table {
 
 /*GRID ARTICLE*/
 
-.span1{
+.border_bottom_black{
     border-bottom: 3px solid black;
-}
-
-.spotlight h3{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: var(--akshar);
-    font-size: 2em;
-    margin: 5rem 0 4rem;
 }
 
 /*article grid 1*/
@@ -274,7 +257,6 @@ table {
 .art_row_one{
     display: flex;
     justify-content: center;
-
 }
 
 .text{
@@ -289,9 +271,9 @@ table {
     top: 1610px;
     opacity: 0.9;
     margin-left: 4rem;
-
 }
-.text h2{
+
+.title_article{
     font-family: var(--akshar);
     font-size: 2em;
     margin-bottom: 2rem;
@@ -303,6 +285,7 @@ table {
     width: 410px;
     letter-spacing: normal;
 }
+
 .img_art{
     height: 363px;
     width: 580px;
@@ -332,12 +315,6 @@ table {
     margin-left: 4rem;
 }
 
-.text2 h2{
-    font-family: var(--akshar);
-    font-size: 2em;
-    margin-bottom: 2rem;
-}
-
 .text2 p{
     font-family: var(--ssourcepro);
     font-size: 1.3em;
@@ -347,15 +324,9 @@ table {
 
 /*OUR ACTION*/
 
-.our_action h3{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: var(--akshar);
-    font-size: 2em;
-    margin: 5rem 0 4rem;
+.our_action{
     margin-top: 17rem;
 }
-
 
 .text_first_action{
     color: white;
@@ -399,13 +370,6 @@ iframe{
 
 /*News*/
 
-.news h3{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: var(--akshar);
-    font-size: 2em;
-    margin: 5rem 0 4rem;
-}
 .news_articles{
     display: flex;
     flex-direction: column;
@@ -420,12 +384,12 @@ iframe{
     justify-content: center;
     align-items: center;
 }
-.news_one{
+
+.news_art{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 2.5rem;
-    
 }
 
 .news_container{
@@ -465,7 +429,6 @@ iframe{
     background-image: url(images/tiled_elephant.png);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 5rem;
     padding-bottom: 7rem;
@@ -474,7 +437,6 @@ iframe{
 .text_reason_to_be p{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
     font-family: var(--akshar);
     font-size: 3em;
@@ -482,14 +444,6 @@ iframe{
     line-height: 80px;
 }
 
-.reason_to_be h3{
-    padding: 4.4375rem; 
-    margin: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: var(--akshar);
-    font-size: 2em;
-}
 
 .explorer a{
     text-decoration: none;
@@ -504,26 +458,11 @@ iframe{
 
 /*TOGETHER*/
 
-.together h3{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: var(--akshar);
-    font-size: 2em;
-    margin: 5rem 0 4rem;   
-}
-
-.together{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6rem;
-}
-
 .row_art_together{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 6rem;
 }
 
 .text_of_together{
@@ -550,14 +489,11 @@ iframe{
     opacity: 0.7;
 }
 
-/*News Letter*/
+/*NewsLetter*/
 
-.news_letter{
+.newsletter{
     display: flex;
     justify-content: center;
-}
-
-.news_letter img{
     margin-top: 5rem;
 }
 
@@ -566,7 +502,7 @@ iframe{
    height: 320px;
    background-color: white;
    position: absolute;
-   top: 6550px;
+   top: 6500px;
    left: 460px;
    opacity: 0.9;
 }
@@ -617,8 +553,7 @@ iframe{
     margin-top: 5rem;
     background-image: url(images/background_footer.png);
     color: white;
-    z-index: 1;
-    
+    z-index: 1;   
 }
 
 .footer_container a{
@@ -634,11 +569,11 @@ iframe{
     margin-left: 21rem;
     padding-top: 5rem;
 }
+
 .first_container h3{
     font-family: var(--akshar);
     font-size: 1.7em;
     padding-bottom: 1.5rem;
-    
 }
 
 .column_one, .column_two, .column_three, .column_four{
@@ -657,7 +592,7 @@ iframe{
     margin-top: 2rem;
     font-family:var(--ssourcepro);
     font-size: 1.2em;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.486);
     padding-bottom: 2rem;
     width: 1170px;
     line-height: 25px;
@@ -671,7 +606,7 @@ iframe{
     z-index: 2;
     margin-left: 23rem;
     margin-top: 2rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.486);
     width: 1170px;
     padding-bottom: 2rem;
 }
@@ -704,10 +639,9 @@ iframe{
     margin-left: 23rem;
     padding-top: 2rem;
     font-family: var(--ssourcepro);
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.486);
     width: 1170px;
     padding-bottom: 1.5rem;
-    
 }
 
 .text_copyright{
